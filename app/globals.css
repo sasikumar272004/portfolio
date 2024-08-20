@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Gwendolyn:wght@400;700&family=Spirax&family=Srisakdi:wght@400;700&family=Tapestry&family=Uncial+Antiqua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Galindo&family=Mooli&family=Original+Surfer&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+  overflow: hidden;
+}
+ 
+.icon-path {
+  fill: #414040;
+}
+
+.load {
+  position: relative;
+}
+
+.d1 , .d2 , .d3 ,.d4,.d5,.d6,.d7,.d8,.d9 {
+  background-color: black;
+  color: #d4d4ce;
+  height: 200px;
+  width: 200px;
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+ }
+
+ 
+ 
+
+.page2{
+  background-image: linear-gradient(
+  0deg,
+  hsl(0deg 0% 0%) 0%,
+  hsl(61deg 9% 10%) 0%,
+  hsl(61deg 5% 17%) 1%,
+  hsl(61deg 4% 25%) 3%,
+  hsl(60deg 3% 34%) 6%,
+  hsl(60deg 2% 43%) 10%,
+  hsl(60deg 2% 52%) 17%,
+  hsl(60deg 3% 62%) 27%,
+  hsl(60deg 4% 72%) 44%,
+  hsl(60deg 7% 82%) 100%
+);
+cursor: default;
+
+}
+ 
+ 
+.p2l{
+  font-stretch: expanded;
+  
+}
+ 
+.c div{
+  background-color: #d4d4ce;
+}
+ 
+
+.c1{
+  animation: anime  5s liear infinite ;
+  animation-direction: alternate;
+}
+
+.c2{
+  
+  animation: anime2  5s linear infinite ;
+  animation-direction: alternate;
+}
+.c3{
+  animation: anime3  5s linear infinite ;
+  animation-direction: alternate;
+}
+.c4{
+  animation: anime4  5s linear infinite ;
+  animation-direction: alternate;
+}
+@keyframes anime {
+   0%{
+    transform: translate(10% , 10% );
+   }  
+
+   50%{
+    transform: translateY(-20%);
+   }
+
+   100%{
+    transform: translate(-10%, -10%);
+   }
+}
+
+@keyframes anime2 {
+  0%{
+   transform: translate(10% , 10% );
+  }  
+
+  100%{
+   transform: translate(-10%, -10%);
+   }
+}
+@keyframes anime3 {
+  0%{
+   transform: translateY(0%);
+  }  
+
+  100%{
+   transform: translateY(30%);
+  }
+}
+@keyframes anime4 {
+  0%{
+   transform: translate(10% , 10% );
+  }  
+ 
+  100%{
+   transform: translate(-10% , -10%);
+   
+  }
+}
+
+.p2des{
+  font-family: buda;
+}
+
+.vizag{
+  animation: v 10s linear infinite ;
+}
+
+@keyframes v {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.home{
+  position: fixed;
+  left: 2%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.nav{
+  position: fixed;
+  right: 0;
+  z-index: 100;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.l{
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.l div{
+  border-bottom: 10px red;
+}
+
+
+.text-stroke {
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: rgb(246, 242, 242);
+}
+
+.text-fill-color {
+  -webkit-text-fill-color: transparent; /* Hide fill */
+  text-fill-color: transparent;
+}
+
+.p1cap{
+  font-family: "Alice", serif;
+}
+ 
+@keyframes chitchat {
+  0% {
+    content: "#";
+  }
+
+  5% {
+    content: ".";
+  }
+
+  10% {
+    content: "^{";
+  }
+
+  15% {
+    content: "-!";
+  }
+
+  20% {
+    content: "#$_";
+  }
+
+  25% {
+    content: "№:0";
+  }
+
+  30% {
+    content: "#{+.";
+  }
+
+  35% {
+    content: "@}-?";
+  }
+
+  40% {
+    content: "?{4@%";
+  }
+
+  45% {
+    content: "=.,^!";
+  }
+
+  50% {
+    content: "?2@%";
+  }
+
+  55% {
+    content: "\;1}]";
+  }
+
+  60% {
+    content: "?{%:%";
+    right: 0;
+  }
+
+  65% {
+    content: "|{f[4";
+    right: 0;
+  }
+
+  70% {
+    content: "{4%0%";
+    right: 0;
+  }
+
+  75% {
+    content: "'1_0<";
+    right: 0;
+  }
+
+  80% {
+    content: "{0%";
+    right: 0;
+  }
+
+  85% {
+    content: "]>'";
+    right: 0;
+  }
+
+  90% {
+    content: "4";
+    right: 0;
+  }
+
+  95% {
+    content: "2";
+    right: 0;
+  }
+
+  100% {
+    content: "";
+    right: 0;
+  }
+}
+
+.t{
+  animation: tani 2s linear  infinite alternate;
+  
+}
+@keyframes tani {
+  0%{
+    transform: scaleX(.99);
+  }
+
+  100%{
+    transform: scaleX(1.08);
+  }
+ 
+
+}
+
+.ta {
+  color: #f9dc22;
+  width: 15px;
+  border-right: 3px solid rgb(247, 244, 244);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mvgp1 ,.mvgp2,.mvgp3,.mvgp4,.mvgp5,.mvgp6,.mvgp7,.mvgp8,.mvgp9,.mvgp10{
+  display: none;
+}
+
+.gr{
+  color: rgb(0, 255, 0);
+}
+
+.ye{
+  color: rgb(255, 0, 0);
+}
+.yee{
+  color: rgb(228, 40, 40);
+}
+
+.vi{
+  color: rgb(149, 0, 255);
+}
+
+
+.ui-btn {
+  --btn-default-bg: transparent;
+  --btn-padding: 15px 20px;
+  --btn-hover-bg:transparent;
+  --btn-transition: .3s;
+  --btn-letter-spacing: .1rem;
+  --btn-animation-duration: 1.2s;
+  --btn-shadow-color: transparent;
+  --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+  --hover-btn-color: #FAC921;
+  --default-btn-color: #fff;
+  --font-size: 16px;
+  /* 👆 this field should not be empty */
+  --font-weight: 600;
+  --font-family: Menlo,Roboto Mono,monospace;
+  /* 👆 this field should not be empty */
+}
+
+/* button settings 👆 */
+
+.ui-btn {
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: var(--btn-padding);
+  display: flex;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+  color: var(--default-btn-color);
+  font: var(--font-weight) var(--font-size) var(--font-family);
+  background: var(--btn-default-bg);
+  border: none;
+  cursor: pointer;
+  transition: var(--btn-transition);
+  overflow: hidden;
+  box-shadow: var(--btn-shadow);
+ }
+
+.ui-btn span {
+  letter-spacing: var(--btn-letter-spacing);
+  transition: var(--btn-transition);
+  box-sizing: border-box;
+  position: relative;
+  background: inherit;
+}
+
+.ui-btn span::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  background: inherit;
+}
+
+.ui-btn:hover, .ui-btn:focus {
+  background: black;
+}
+
+.ui-btn:hover span, .ui-btn:focus span {
+  color:yellow;
+}
+
+.ui-btn:hover span::before, .ui-btn:focus span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+  0% {
+    content: "#";
+  }
+
+  5% {
+    content: ".";
+  }
+
+  10% {
+    content: "^{";
+  }
+
+  15% {
+    content: "-!";
+  }
+
+  20% {
+    content: "#$_";
+  }
+
+  25% {
+    content: "№:0";
+  }
+
+  30% {
+    content: "#{+.";
+  }
+
+  35% {
+    content: "@}-?";
+  }
+
+  40% {
+    content: "?{4@%";
+  }
+
+  45% {
+    content: "=.,^!";
+  }
+
+  50% {
+    content: "?2@%";
+  }
+
+  55% {
+    content: "\;1}]";
+  }
+
+  60% {
+    content: "?{%:%";
+    right: 0;
+  }
+
+  65% {
+    content: "|{f[4";
+    right: 0;
+  }
+
+  70% {
+    content: "{4%0%";
+    right: 0;
+  }
+
+  75% {
+    content: "'1_0<";
+    right: 0;
+  }
+
+  80% {
+    content: "{0%";
+    right: 0;
+  }
+
+  85% {
+    content: "]>'";
+    right: 0;
+  }
+
+  90% {
+    content: "4";
+    right: 0;
+  }
+
+  95% {
+    content: "2";
+    right: 0;
+  }
+
+  100% {
+    content: "";
+    right: 0;
+  }
+}
+
+ 
